@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Hospital Management System</title>
+</head>
+<body class="bg-gray-200 h-screen">
+    <!-- Nav Bar -->
+    <nav class="border-b flex justify-between items-center bg-gray-800 text-white h-20 px-6">
+        <div>
+            <h1 class="text-4xl font-bold ">SKumar Services</h1>
+        </div>
+
+        <div class="w-auto">
+            <ul class="flex space-x-6">
+                <li><a href="#" class="py-2 px-4 hover:text-gray-300">Home</a></li>
+                <li><a href="#" class="py-2 px-4 hover:text-gray-300">Book your Appointment</a></li>
+                <li><a href="#" class="py-2 px-4 hover:text-gray-300">Doctor Dashboard</a></li>
+                <li><a href="#" class="py-2 px-4 hover:text-gray-300">Patient Dashboard</a></li>
+                <li><a href="#" class="py-2 px-4 hover:text-gray-300">Contact Us</a></li>
+            </ul> 
+        </div>
+
+        <div>
+            <a href="#" class="py-2 px-4 bg-red-600 hover:bg-red-700 rounded">Sign Out</a>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div>
+        <!-- Introductory Background -->
+        <div class="mt-25 flex items-center max-w-fit mx-auto">
+            <div class="text-left flex flex-col space-y-4 max-w-lg">
+                <h1 class="text-5xl font-bold text-blue-900">Bringing <span class="text-red-600">Care</span> Closer To <span class="text-red-600">You.</span></h1>
+                <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vero unde itaque doloremque dolores minus quisquam molestias a quas quos.</p>
+
+                <div class="flex space-x-10 justify-center">
+                    <a href="#" class="border px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Sign in</a>
+                    <a href="#" class="border px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700">Book an Appointment</a>
+                </div>
+            
+            </div>
+
+            <img src="../static/img1.avif" alt="Hospital Beds" class="rounded-md shadow-lg ml-4">
+        </div>
+
+        <br>
+
+        <!-- Faculty and Services Section -->
+         <h1 class="text-center text-4xl font-semibold mt-20">Departments:</h1>
+         <br>
+         <br>
+        <div class="grid grid-rows-2 grid-cols-4 gap-20 justify-items-center mt-10">
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105"> 
+                <img src="../static/radiology.avif" alt="Radiology" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2 ">Radiology</h1> 
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105">
+                <img src="../static/cardiology.avif" alt="Cardiology" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">Cardiology</h1>
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105"> 
+                <img src="../static/dermatology.avif" alt="Dermatology" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">Dermatology</h1>
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105"> 
+                <img src="../static/gi.avif" alt="General Surgery" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">General Surgery</h1> 
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105">
+                <img src="../static/neurology.avif" alt="Neurology" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">Neurology</h1>
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105">
+                <img src="../static/im.avif" alt="Internal Medicine" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">Internal Medicine</h1>
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105">
+                <img src="../static/opthalmology.avif" alt="Opthalmology" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">Opthalmology</h1>
+            </div>
+
+            <div class="flex flex-col h-72 w-80 bg-gray-100 shadow-xl rounded-lg transition-all duration-200 ease-in hover:bg-gray-200 hover:scale-105">
+                <img src="../static/dentistry.avif" alt="Dentistry" class="h-full rounded-t-lg">
+                <h1 class="text-xl text-blue-900 text-center font-semibold p-2">Dentistry</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="border-b flex justify-center items-center bg-gray-800 text-white mt-20 h-20 px-6">
+        <p class="text-3xl">Developed by Sam!</p>
+    </footer>
+    
+</body>
+</html>
